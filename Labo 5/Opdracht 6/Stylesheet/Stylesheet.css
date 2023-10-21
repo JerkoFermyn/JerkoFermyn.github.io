@@ -1,0 +1,25 @@
+.hoofdingen{
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.5em;
+}
+H3{
+    font-size: 1.4em;
+}
+p{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 1.2em;
+}
+.Prood{
+    color: red;
+}
+.Pgroen{
+    color: green;
+}
+.Pblauw{
+    color: blue;
+}
