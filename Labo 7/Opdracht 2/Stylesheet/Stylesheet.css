@@ -1,0 +1,41 @@
+@media only screen and (min-width: 600px) {
+    .column{
+        width: 98%;
+    }
+    body{
+        width: 100%;
+    }
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: orangered;
+}
+.links{
+    list-style: none;
+    padding: 10px 30px;
+    background-image: url(../Images/Link.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+.voetbal{
+    list-style-image: url("../Images/voetbal.png");
+}
+.basketball{
+    list-style-image: url("../Images/basketbal.png");
+}
+.fitness{
+    list-style-image: url("../Images/dumbell.png");
+}
+ul > li > ul > li{
+    list-style-image: none;
+}

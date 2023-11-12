@@ -1,0 +1,22 @@
+.vrijedag{
+    background-color: rgb(250,120,120);
+}
+thead{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+caption{
+    background-color: rgb(170,170,200);
+}
+table{
+    border: black solid 2px;
+}
+td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+td:last-child{
+    background-color: rgb(255, 220, 220);
+}
+td.andermaand{
+    background-color: grey;
+}
