@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head> 
+	<title>Oefening</title>
+	<link rel="stylesheet" type="text/css" href="styles/index.css">
+</head>
+<body>
+<h1>Invulformulier</h1>
+<form id="validationForm">
+	<label for="firstName">Voornaam:</label>
+	<input type="text" id="firstName" name="firstName">
+	<span id="firstNameError" class="error"></span>
+
+	<label for="lastName">Familienaam:</label>
+	<input type="text" id="lastName" name="lastName">
+	<span id="lastNameError" class="error"></span>
+
+	<label for="birthdate">Geboortedatum:</label>
+	<input type="text" id="birthdate" name="birthdate" placeholder="jjjj-mm-dd">
+	<span id="birthdateError" class="error"></span>
+
+	<label for="email">Email:</label>
+	<input type="text" id="email" name="email">
+	<span id="emailError" class="error"></span>
+
+	<label for="children">Aantal kinderen:</label>
+	<input type="number" id="children" name="children" min="0" max="98">
+	<span id="childrenError" class="error"></span>
+
+	<button type="button" id="valideer">Valideer</button>
+</form>
+
+<script src="scripts/index.js"></script>
+</body>
+
+</html> 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head> 
+	<title>Oefening</title>
+</head> 
+
+<body>
+<table>
+	<tr>
+		<td>
+			<label for="roker">Is roker</label>
+		</td>
+		<td>
+			<input type="checkbox" id="roker" value="roker">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p>Moedertaal</p>
+		</td>
+		<td>
+			<input type="radio" id="Nederlands" name="moedertaal" value="nl">
+			<label for="Nederlands">Nederlands</label>
+			<input type="radio" id="Frans" name="moedertaal" value="fr">
+			<label for="Frans">Frans</label>
+			<input type="radio" id="Engels" name="moedertaal" value="en">
+			<label for="Engels">Engels</label>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="buurland">Favorite buurland</label>
+		</td>
+		<td>
+			<select id="buurland">
+				<option value="Nederland">Nederland</option>
+				<option value="Frankrijk">Frankrijk</option>
+				<option value="Duitsland">Duitsland</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td><label for="bestelling">Bestelling</label></td>
+		<td>
+			<select id="bestelling" size="6" multiple>
+				<option value="aardappelen">aardappelen</option>
+				<option value="brood">brood</option>
+				<option value="melk">melk</option>
+				<option value="biefstuk">biefstuk</option>
+				<option value="chips">chips</option>
+				<option value="krant">krant</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<button id="toonresultaat">Toon Resultaat</button>
+		</td>
+	</tr>
+</table>
+	<script src="scripts/index.js"></script> 
+</body> 
+</html> 
