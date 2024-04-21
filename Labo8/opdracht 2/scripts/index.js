@@ -9,6 +9,7 @@ const setup = () => {
             gemeente : "Kortrijk"
         }
     }
+    console.log(student1);
 }
 
 window.addEventListener("load", setup);
