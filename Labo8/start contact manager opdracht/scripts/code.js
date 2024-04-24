@@ -99,4 +99,8 @@ const setup = () => {
     // moet de data van die persoon getoond worden in het formulier
 };
 
+const delete = () =>{
+
+}
+
 window.addEventListener("load", setup);
