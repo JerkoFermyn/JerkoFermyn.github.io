@@ -56,6 +56,7 @@ const bewaarBewerktePersoon = () => {
 
             let option = document.createElement("option");
             option.text = pVoornaam + " " + pFamielienaam;
+            option.value = pVoornaam + " " + pFamielienaam;
             option.setAttribute("value", personen.length - 1 + "");
             select.appendChild(option);
         }
@@ -94,13 +95,31 @@ const setup = () => {
     let keuzelijst = document.getElementById("lstPersonen");
     keuzelijst.addEventListener('change',toonGeselecteerdePersoon);
 
+    let btnDelete = document.getElementById("btnDelete");
+    btnDelete.addEventListener('click',deletecContact);
+
     let lstPersonen = document.getElementById("lstPersonen");
     // voeg een change listener toe aan lstPersonen. Bij het klikken op een option element in de lijst
     // moet de data van die persoon getoond worden in het formulier
 };
 
-const delete = () =>{
+const deletecContact = () =>{
+    const select= document.getElementById("lstPersonen");
+    if(select.selectedIndex !==-1){
 
+    }else{
+        let index = select.selectedIndex;
+        console.log(personen)
+        delete personen[index];
+        console.log(personen)
+    }
+    for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].value === personen[i].pVoornaam + " " +personen[i].pFamielienaam) {
+            // Verwijder de optie
+            select.remove();
+            break; // Stop de loop zodra de optie is verwijderd
+        }
+    }
 }
 
 window.addEventListener("load", setup);

@@ -1,0 +1,46 @@
+body > div{
+    margin-top: 30px;
+}
+.whitespaceBetweenRows{
+    margin-bottom: 20px;
+}
+.custom-cardYoutube.card {
+    background-color: #ff0000; /* Red color */
+    max-width: 100%;
+    border-style: none;
+}
+.custom-cardGoogle.card {
+    background-color: #4285f4; /* Red color */
+    max-width: 100%;
+    border-style: none;
+}
+.custom-cardTwitter.card {
+    background-color: #1da1f2; /* Red color */
+    max-width: 100%;
+    border-style: none;
+}
+.custom-cardInstagram.card {
+    background-color: #c32aa3; /* Red color */
+    max-width: 100%;
+    border-style: none;
+}
+.buttonBlack.btn{
+    background-color: black;
+    color: white;
+}
+.buttonOrange.btn{
+    background-color: orangered;
+    color: white;
+}
+body > button{
+    width: 100%;
+    color: white;
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    border-radius: 2px;
+}
+body > input{
+    width: 100%;
+}
